@@ -98,15 +98,20 @@ def start(update, context):
 def help(update, context):
     """Send a message when the command /help is issued."""
     update.message.reply_text('Help!')
+    
 
 
 def echo(update, context):
-    """Echo the user message."""
-    #update.message.send_gif('https://giphy.com/gifs/bredenkids-construction-breden-kids-W2dHV7C4eOlvWLmpdv')
-    update.message.reply_text("Working on it just wait for 1-2 mins")
-    p=find(update.message.text)
-    print(p)
-    update.message.reply_text(p)
+   """Echo the user message."""
+   #update.message.send_gif('https://giphy.com/gifs/bredenkids-construction-breden-kids-W2dHV7C4eOlvWLmpdv')
+   update.message.reply_text("Working on it just wait for 1-2 mins")
+   p=find(update.message.text)
+   print(p)
+   update.message.reply_text(p)
+   update.message.reply_text('''If trying each 1-5 magnets on uTorrent doesn't maches your requirement ,then try to specify your requirement more clearly
+   like adding year etc. 
+   If the problem persists type /help to get help''')
+           
 
 
 def error(update, context):
