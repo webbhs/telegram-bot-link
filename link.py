@@ -103,6 +103,7 @@ def help(update, context):
 def echo(update, context):
     """Echo the user message."""
     #update.message.send_gif('https://giphy.com/gifs/bredenkids-construction-breden-kids-W2dHV7C4eOlvWLmpdv')
+    update.message.reply_text("Working on it just wait for 1-2 mins")
     p=find(update.message.text)
     print(p)
     update.message.reply_text(p)
