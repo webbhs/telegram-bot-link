@@ -1,1 +1,1 @@
-python link.py
+web: python link.py
