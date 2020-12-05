@@ -91,7 +91,7 @@ logger = logging.getLogger(__name__)
 def start(update, context):
     """Send a message when the command /start is issued."""
     update.message.reply_text('''Hi! I am best link giving bot. You can download movies,anime,books,porn,games,apps etc...
-                              Now type want you want 🤗''')
+    Now type what you want🧑‍💻''')
     
 
 
