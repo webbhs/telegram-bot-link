@@ -1,4 +1,4 @@
 python-telegram-bot
-beautifulsoup
+beautifulsoup4
 json
 requests
