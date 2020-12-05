@@ -59,7 +59,7 @@ def find(r):
 
 
   payload = {'sections':[{'name':'Section1','contents':text}]}
-  headers = {'X-Auth-Token': 'azBPcr3ABlSMSknCXisQlcxdJD8vC0as4pD8rxmo5'}
+  headers = {'X-Auth-Token': 'AAFJntPcemEJFZmMOyZXGKfZGGA748foTGA'}
   post_response = requests.post(url='https://api.paste.ee/v1/pastes', json=payload, headers=headers)
   print(post_response.text)
   i=post_response.text
