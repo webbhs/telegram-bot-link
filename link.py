@@ -90,7 +90,7 @@ logger = logging.getLogger(__name__)
 # context. Error handlers also receive the raised TelegramError object in error.
 def start(update, context):
     """Send a message when the command /start is issued."""
-    update.message.reply_text('''Hi! I am best link giving bot. You can download movies,anime,books,porn,games,apps etc...
+    update.message.reply_text('''Hi! I am best link giving bot. You can download movies,anime,books,games,apps etc...
     Now type what you want🧑‍💻''')
     
 
