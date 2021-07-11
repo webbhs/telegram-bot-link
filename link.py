@@ -69,16 +69,16 @@ def find(r):
 
   url=f"https://paste.ee/p/{id}"
 
-  response = requests.put("https://api.shorte.st/v1/data/url", {"urlToShorten":url}, headers={"public-api-token": "6ecac39ce3355cfdec48dea0220b6d4e"})
-  print(response.content)
+  #response = requests.put("https://api.shorte.st/v1/data/url", {"urlToShorten":url}, headers={"public-api-token": "6ecac39ce3355cfdec48dea0220b6d4e"})
+  #print(response.content)
   # {"status":"ok","shortenedUrl":"http:\\/\\/sh.st\\/ryHyU"}
 
-  decoded_response=json.loads(response.content)
-  print(decoded_response)
-  print(list(mov.keys())[0]) 
-  f=response
-  print(type(f))
-  return(f["shortenedUrl"])
+ # decoded_response=json.loads(response.content)
+ # print(decoded_response)
+ # print(list(mov.keys())[0]) 
+ # f=response
+ # print(type(f))
+  return(url)
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
