@@ -69,7 +69,7 @@ def find(r):
 
   url=f"https://paste.ee/p/{id}"
 
-  response = requests.put("https://api.shorte.st/v1/data/url", {"urlToShorten":url}, headers={"public-api-token": "533b3368e8af3bdab5e4f8b8a6787fde"})
+  response = requests.put("https://api.shorte.st/v1/data/url", {"urlToShorten":url}, headers={"public-api-token": "6ecac39ce3355cfdec48dea0220b6d4e")
   print(response.content)
   # {"status":"ok","shortenedUrl":"http:\\/\\/sh.st\\/ryHyU"}
 
