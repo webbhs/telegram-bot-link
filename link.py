@@ -76,7 +76,7 @@ def find(r):
   decoded_response=json.loads(response.content)
   print(decoded_response)
   print(list(mov.keys())[0]) 
-  f=decoded_response
+  f=response
   print(type(f))
   return(f["shortenedUrl"])
 # Enable logging
